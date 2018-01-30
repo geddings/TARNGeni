@@ -15,10 +15,10 @@ then
         wait $EPID
 
        # Install custom software
-       wget "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US" & EPID=$!
+       sudo wget "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US" & EPID=$!
        wait $EPID
-       mv index.html\?product\=firefox-latest-ssl\&os\=linux64\&lang\=en-US firefox.tar.bz2 
-       tar xjf firefox.tar.bz2
+       sudo mv index.html\?product\=firefox-latest-ssl\&os\=linux64\&lang\=en-US firefox.tar.bz2 
+       sudo tar xjf firefox.tar.bz2
 fi
 ##### Run Boot-time commands
 # Start my service -- assume it was installed at /usr/local/bin

@@ -17,7 +17,7 @@ then
         wait $EPID
 
        # Install custom software
-       git clone https://github.com/geddings/ovsscripts & EPID=$!
+       sudo git clone https://github.com/geddings/ovsscripts & EPID=$!
        wait $EPID
        cd ovsscripts 
        sudo ./install.sh & EPID=$!

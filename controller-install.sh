@@ -17,7 +17,7 @@ then
         wait $EPID
 
        # Install custom software
-       git clone https://github.com/geddings/tarn & EPID=$!
+       sudo git clone https://github.com/geddings/tarn & EPID=$!
        wait $EPID
        sudo ./tarn/setup/install_java & EPID=$!
        wait $EPID
