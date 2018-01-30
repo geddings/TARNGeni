@@ -6,7 +6,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
             
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/ovs-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/ovs-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/ovs-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-1"/>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-2">
@@ -24,7 +26,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
            
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/router-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/router-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/router-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-3">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="184.164.240.254" type="ipv4" netmask="255.255.255.0"/>
@@ -37,7 +41,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
 
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/client-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/client-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/client-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-0">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="184.164.240.1" type="ipv4" netmask="255.255.255.0"/>
@@ -50,7 +56,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
 
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/controller-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/controller-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/controller-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-4">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="192.168.0.1" type="ipv4" netmask="255.255.255.0"/>
@@ -64,7 +72,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
       
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/router-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/router-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/router-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-6">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="184.164.243.254" type="ipv4" netmask="255.255.255.0"/>
@@ -77,7 +87,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
 
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/ovs-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/ovs-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/ovs-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-7"/>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-9"/>
@@ -92,7 +104,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
   
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/controller-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/controller-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/controller-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-11">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="192.168.1.1" type="ipv4" netmask="255.255.255.0"/>
@@ -105,7 +119,9 @@
         </sliver_type>
         <services xmlns="http://www.geni.net/resources/rspec/3">
 
-        <install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/server-install.tar.gz" install_path="/local"/>
+        
+<execute xmlns="http://www.geni.net/resources/rspec/3" command="sh /local/server-install.sh" shell="/bin/sh"/>
+<install xmlns="http://www.geni.net/resources/rspec/3" url="https://github.com/geddings/TARNGeni/releases/download/v0.0.1/server-install.tar.gz" install_path="/local"/>
 </services>
         <interface xmlns="http://www.geni.net/resources/rspec/3" client_id="interface-8">
             <ip xmlns="http://www.geni.net/resources/rspec/3" address="184.164.243.1" type="ipv4" netmask="255.255.255.0"/>
